@@ -7,5 +7,29 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 15vh;
+  background: red;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.content {
+  flex-grow: 1;
 }
