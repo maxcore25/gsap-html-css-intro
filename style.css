@@ -44,7 +44,9 @@ body {
 }
 
 .button {
+  padding: 0.5em 1em;
   align-self: center;
+  font-size: 2rem;
 }
 
 .footer {
