@@ -32,14 +32,18 @@ body {
 
 .content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   flex-grow: 1;
+  width: 100%;
 }
 
 .sidebar {
   width: 15vw;
   background: green;
+}
+
+.button {
+  align-self: center;
 }
 
 .footer {
