@@ -10,3 +10,6 @@ gsap.fromTo(
   { opacity: 0, scale: 0, rotation: 720 },
   { duration: 1, opacity: 1, scale: 1, rotation: 0, delay: 3.5 }
 );
+
+// const obj = { x: 0 };
+// gsap.to(obj, { duration: 2, x: 100, onUpdate: () => console.log(obj.x) });
